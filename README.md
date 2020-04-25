@@ -1,2 +1,2 @@
 # image_threshold
- thresholds an image
+Shiny app that thresholds an user image
