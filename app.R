@@ -18,7 +18,7 @@ ui <- fluidPage(
 
     # Application title
     titlePanel("Count pixels above threshold"),
-
+    p("If this app is hosted at shinyapps.io the image size is limited to 1MB"),
     # Sidebar with data upload widget and date range slider 
     sidebarLayout(
         #data upload widget
