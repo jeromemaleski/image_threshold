@@ -86,7 +86,7 @@ options(shiny.maxRequestSize=100*1024^2)
       #print(values$skypix)
       values$totalpix<-ncell(values$myraster[[1]])
       #print(values$totalpix)
-      values$pctsky<-(values$skypix/values$totalpix)*100
+      values$pctsky<-round((values$skypix/values$totalpix)*100,1)
       #print(values$pctsky)
       })
   
